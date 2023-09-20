@@ -2,12 +2,9 @@
 
 "O Boletim diário da operação é um documento disponibilizado pela ONS e traz diáriamente os resultados da operação, este documento serve de subsídio às equipes de Programação, Pré-Operação e Tempo Real e também como fonte de dados estatísticos." [https://ons.org.br](https://www.ons.org.br/paginas/resultados-da-operacao/boletins-da-operacao)
 
-Este projeto visa realizar a coleta dos dados disponibilizados diariamente pelo ONS e entregá-los em um formato mais amigável para consumo.
+Este projeto tem como objetivo realizar a coleta dos dados disponibilizados diariamente pelo ONS e entregá-los em um formato mais amigável para consumo.
 
-
-Neste primeiro push, estamos concentrando nossos esforços na coleta, padronização e exportação em formato CSV dos dados relacionados ao "Balanço de energia - Diário" e "Balanço de energia - Acumulado até o dia" Esses dados são estruturados da seguinte forma:
-
+Neste primeiro push, estamos concentrando nossos esforços na coleta, padronização e exportação em formato CSV dos dados relacionados ao "Balanço de energia - Diário" e "Balanço de energia - Acumulado até o dia" Esses dados são estruturados da seguinte forma: 
 producao | programado | verificado | desvio | regiao | data_diario
-
 
 Nosso próximo passo é ampliar a gama de dados relevantes que coletamos, visando integrá-los em um banco de dados relacional. Isso permitirá uma consulta mais eficiente e uma análise mais abrangente das informações, facilitando o cruzamento de dados e a obtenção de insights valiosos.
