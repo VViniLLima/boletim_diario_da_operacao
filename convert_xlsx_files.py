@@ -8,7 +8,7 @@ class XLSXFiles:
         for file in files_list:
             workbook = Workbook()
             workbook.LoadFromFile(f'{input_path}{file}')
-
+            
             file_name = file.replace('xlsx', 'xls')
             workbook.SaveToFile(f'{output_path}{file_name}', ExcelVersion.Version97to2003)
             workbook.Dispose()
