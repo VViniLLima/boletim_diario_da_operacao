@@ -1,4 +1,6 @@
 IMPUT_PATH = './output/download_ons_converted/'
+BDO_DOWNLOAD_PATH = './output/arquivos_boletim_diario/'
+CONVERTED_FILES_PATH = './output/arquivos_boletim_diario/boletim_diario_convertido/'
 REGIOES = ['Sistema Interligado', 'Norte', 'Nordeste', 'Sudeste ', 'Sul']
 SHEETS_BALANCO_ACUMULADO = 'Balanço de Energia Acumulado' 
 SHEET_BALANCO_DIARIO = 'Balanço de Energia' 
